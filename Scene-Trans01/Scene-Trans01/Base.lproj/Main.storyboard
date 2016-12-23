@@ -44,10 +44,10 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Contoller-->
         <scene sceneID="cvm-2t-EeV">
             <objects>
-                <viewController storyboardIdentifier="SecondVC" id="JKy-uC-q1Q" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondVC" id="JKy-uC-q1Q" customClass="SecondViewContoller" customModule="Scene_Trans01" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PY9-jj-4me"/>
                         <viewControllerLayoutGuide type="bottom" id="4dy-TE-h7y"/>
@@ -63,6 +63,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hd-KA-UNZ">
+                                <rect key="frame" x="170" y="247" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="dismiss:" destination="JKy-uC-q1Q" eventType="touchUpInside" id="k2l-9x-fbH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>

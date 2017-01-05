@@ -7,27 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A572015A1E0D5A7300236874 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57201591E0D5A7300236874 /* AppDelegate.swift */; };
-		A572015C1E0D5A7300236874 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A572015B1E0D5A7300236874 /* ViewController.swift */; };
-		A572015F1E0D5A7300236874 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A572015D1E0D5A7300236874 /* Main.storyboard */; };
-		A57201611E0D5A7300236874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57201601E0D5A7300236874 /* Assets.xcassets */; };
-		A57201641E0D5A7300236874 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57201621E0D5A7300236874 /* LaunchScreen.storyboard */; };
-		A572016C1E0D60FC00236874 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A572016B1E0D60FC00236874 /* SecondViewController.swift */; };
+		A52DF5C81E1E5ABD00452218 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52DF5C71E1E5ABD00452218 /* AppDelegate.swift */; };
+		A52DF5CA1E1E5ABD00452218 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52DF5C91E1E5ABD00452218 /* ViewController.swift */; };
+		A52DF5CD1E1E5ABD00452218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52DF5CB1E1E5ABD00452218 /* Main.storyboard */; };
+		A52DF5CF1E1E5ABD00452218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52DF5CE1E1E5ABD00452218 /* Assets.xcassets */; };
+		A52DF5D21E1E5ABD00452218 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52DF5D01E1E5ABD00452218 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A57201561E0D5A7300236874 /* Scean-Trans02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scean-Trans02.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A57201591E0D5A7300236874 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A572015B1E0D5A7300236874 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A572015E1E0D5A7300236874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A57201601E0D5A7300236874 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A57201631E0D5A7300236874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A57201651E0D5A7300236874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A572016B1E0D60FC00236874 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A52DF5C41E1E5ABD00452218 /* Scene-MeanualSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scene-MeanualSegue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52DF5C71E1E5ABD00452218 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A52DF5C91E1E5ABD00452218 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A52DF5CC1E1E5ABD00452218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A52DF5CE1E1E5ABD00452218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A52DF5D11E1E5ABD00452218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A52DF5D31E1E5ABD00452218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A57201531E0D5A7300236874 /* Frameworks */ = {
+		A52DF5C11E1E5ABD00452218 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,74 +35,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A572014D1E0D5A7300236874 = {
+		A52DF5BB1E1E5ABD00452218 = {
 			isa = PBXGroup;
 			children = (
-				A57201581E0D5A7300236874 /* Scean-Trans02 */,
-				A57201571E0D5A7300236874 /* Products */,
+				A52DF5C61E1E5ABD00452218 /* Scene-MeanualSegue */,
+				A52DF5C51E1E5ABD00452218 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A57201571E0D5A7300236874 /* Products */ = {
+		A52DF5C51E1E5ABD00452218 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A57201561E0D5A7300236874 /* Scean-Trans02.app */,
+				A52DF5C41E1E5ABD00452218 /* Scene-MeanualSegue.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A57201581E0D5A7300236874 /* Scean-Trans02 */ = {
+		A52DF5C61E1E5ABD00452218 /* Scene-MeanualSegue */ = {
 			isa = PBXGroup;
 			children = (
-				A57201591E0D5A7300236874 /* AppDelegate.swift */,
-				A572015B1E0D5A7300236874 /* ViewController.swift */,
-				A572015D1E0D5A7300236874 /* Main.storyboard */,
-				A572016B1E0D60FC00236874 /* SecondViewController.swift */,
-				A57201601E0D5A7300236874 /* Assets.xcassets */,
-				A57201621E0D5A7300236874 /* LaunchScreen.storyboard */,
-				A57201651E0D5A7300236874 /* Info.plist */,
+				A52DF5C71E1E5ABD00452218 /* AppDelegate.swift */,
+				A52DF5C91E1E5ABD00452218 /* ViewController.swift */,
+				A52DF5CB1E1E5ABD00452218 /* Main.storyboard */,
+				A52DF5CE1E1E5ABD00452218 /* Assets.xcassets */,
+				A52DF5D01E1E5ABD00452218 /* LaunchScreen.storyboard */,
+				A52DF5D31E1E5ABD00452218 /* Info.plist */,
 			);
-			path = "Scean-Trans02";
+			path = "Scene-MeanualSegue";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A57201551E0D5A7300236874 /* Scean-Trans02 */ = {
+		A52DF5C31E1E5ABD00452218 /* Scene-MeanualSegue */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A57201681E0D5A7300236874 /* Build configuration list for PBXNativeTarget "Scean-Trans02" */;
+			buildConfigurationList = A52DF5D61E1E5ABD00452218 /* Build configuration list for PBXNativeTarget "Scene-MeanualSegue" */;
 			buildPhases = (
-				A57201521E0D5A7300236874 /* Sources */,
-				A57201531E0D5A7300236874 /* Frameworks */,
-				A57201541E0D5A7300236874 /* Resources */,
+				A52DF5C01E1E5ABD00452218 /* Sources */,
+				A52DF5C11E1E5ABD00452218 /* Frameworks */,
+				A52DF5C21E1E5ABD00452218 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Scean-Trans02";
-			productName = "Scean-Trans02";
-			productReference = A57201561E0D5A7300236874 /* Scean-Trans02.app */;
+			name = "Scene-MeanualSegue";
+			productName = "Scene-MeanualSegue";
+			productReference = A52DF5C41E1E5ABD00452218 /* Scene-MeanualSegue.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A572014E1E0D5A7300236874 /* Project object */ = {
+		A52DF5BC1E1E5ABD00452218 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = ren;
 				TargetAttributes = {
-					A57201551E0D5A7300236874 = {
+					A52DF5C31E1E5ABD00452218 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 978AX8XJ3Z;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = A57201511E0D5A7300236874 /* Build configuration list for PBXProject "Scean-Trans02" */;
+			buildConfigurationList = A52DF5BF1E1E5ABD00452218 /* Build configuration list for PBXProject "Scene-MeanualSegue" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,55 +109,54 @@
 				en,
 				Base,
 			);
-			mainGroup = A572014D1E0D5A7300236874;
-			productRefGroup = A57201571E0D5A7300236874 /* Products */;
+			mainGroup = A52DF5BB1E1E5ABD00452218;
+			productRefGroup = A52DF5C51E1E5ABD00452218 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A57201551E0D5A7300236874 /* Scean-Trans02 */,
+				A52DF5C31E1E5ABD00452218 /* Scene-MeanualSegue */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A57201541E0D5A7300236874 /* Resources */ = {
+		A52DF5C21E1E5ABD00452218 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A57201641E0D5A7300236874 /* LaunchScreen.storyboard in Resources */,
-				A57201611E0D5A7300236874 /* Assets.xcassets in Resources */,
-				A572015F1E0D5A7300236874 /* Main.storyboard in Resources */,
+				A52DF5D21E1E5ABD00452218 /* LaunchScreen.storyboard in Resources */,
+				A52DF5CF1E1E5ABD00452218 /* Assets.xcassets in Resources */,
+				A52DF5CD1E1E5ABD00452218 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A57201521E0D5A7300236874 /* Sources */ = {
+		A52DF5C01E1E5ABD00452218 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A572016C1E0D60FC00236874 /* SecondViewController.swift in Sources */,
-				A572015C1E0D5A7300236874 /* ViewController.swift in Sources */,
-				A572015A1E0D5A7300236874 /* AppDelegate.swift in Sources */,
+				A52DF5CA1E1E5ABD00452218 /* ViewController.swift in Sources */,
+				A52DF5C81E1E5ABD00452218 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A572015D1E0D5A7300236874 /* Main.storyboard */ = {
+		A52DF5CB1E1E5ABD00452218 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A572015E1E0D5A7300236874 /* Base */,
+				A52DF5CC1E1E5ABD00452218 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A57201621E0D5A7300236874 /* LaunchScreen.storyboard */ = {
+		A52DF5D01E1E5ABD00452218 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A57201631E0D5A7300236874 /* Base */,
+				A52DF5D11E1E5ABD00452218 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -168,7 +164,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A57201661E0D5A7300236874 /* Debug */ = {
+		A52DF5D41E1E5ABD00452218 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +213,7 @@
 			};
 			name = Debug;
 		};
-		A57201671E0D5A7300236874 /* Release */ = {
+		A52DF5D51E1E5ABD00452218 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,27 +255,27 @@
 			};
 			name = Release;
 		};
-		A57201691E0D5A7300236874 /* Debug */ = {
+		A52DF5D71E1E5ABD00452218 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 978AX8XJ3Z;
-				INFOPLIST_FILE = "Scean-Trans02/Info.plist";
+				INFOPLIST_FILE = "Scene-MeanualSegue/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ren.Scean-Trans02";
+				PRODUCT_BUNDLE_IDENTIFIER = "ren.Scene-MeanualSegue";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		A572016A1E0D5A7300236874 /* Release */ = {
+		A52DF5D81E1E5ABD00452218 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 978AX8XJ3Z;
-				INFOPLIST_FILE = "Scean-Trans02/Info.plist";
+				INFOPLIST_FILE = "Scene-MeanualSegue/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ren.Scean-Trans02";
+				PRODUCT_BUNDLE_IDENTIFIER = "ren.Scene-MeanualSegue";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -288,25 +284,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A57201511E0D5A7300236874 /* Build configuration list for PBXProject "Scean-Trans02" */ = {
+		A52DF5BF1E1E5ABD00452218 /* Build configuration list for PBXProject "Scene-MeanualSegue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A57201661E0D5A7300236874 /* Debug */,
-				A57201671E0D5A7300236874 /* Release */,
+				A52DF5D41E1E5ABD00452218 /* Debug */,
+				A52DF5D51E1E5ABD00452218 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A57201681E0D5A7300236874 /* Build configuration list for PBXNativeTarget "Scean-Trans02" */ = {
+		A52DF5D61E1E5ABD00452218 /* Build configuration list for PBXNativeTarget "Scene-MeanualSegue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A57201691E0D5A7300236874 /* Debug */,
-				A572016A1E0D5A7300236874 /* Release */,
+				A52DF5D71E1E5ABD00452218 /* Debug */,
+				A52DF5D81E1E5ABD00452218 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A572014E1E0D5A7300236874 /* Project object */;
+	rootObject = A52DF5BC1E1E5ABD00452218 /* Project object */;
 }
